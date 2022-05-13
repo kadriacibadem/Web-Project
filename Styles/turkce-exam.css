@@ -54,3 +54,7 @@ ul {
 #prev {
     display:none;  /* başlangıçta prev gizlemek için */
 }
+
+#start-exam{
+    margin-left: 50%;
+}
