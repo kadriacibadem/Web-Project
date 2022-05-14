@@ -10,15 +10,16 @@
 background: linear-gradient(90deg, rgb(140, 1, 183) 30%, rgb(9, 214, 255) 100%);
 
 }
+.shadow-bg{
+  shadow: 2px 2px 7px rgb(31, 29, 29);
+}
 
 .projectPageAll {
-    width: 100%;
-    height: 600px;
-    margin-top: 80px;
+   background-color: rgb(209, 199, 186);
 }
 
 .bg-line{
-    width: 100%;;
+    width: 100%;
     height: 40px;
    
     background-image: url("https://www.tongucakademi.com/Content/img/background/yildirimBackWhite.png");
@@ -63,10 +64,14 @@ p{
 
 }
 
+img{
+    padding: 20px;
+}
 .img{
     display: block; 
     margin: auto;
     max-width: 50%;
+    
 }
 
 .img-color{
