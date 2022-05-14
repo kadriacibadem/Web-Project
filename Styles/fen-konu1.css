@@ -105,12 +105,18 @@ h3{
     border-color: rgb(96, 201, 201);
 }
 
+/* @media .container-a{
+    width: 150%;
+    height: 100vh;
+    display: flex;} */
 
 
-@media 
-  (max-device-width: 218px)
-  and (max-device-height: 281px) { 
-
-
+    @media only screen and (max-width: 1404px) {
+        .container-a{
+            width: 150%;
+            height: 100vh;
+            display: flex;
+        }
+      }
 
 
