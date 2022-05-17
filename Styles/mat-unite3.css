@@ -47,7 +47,17 @@ background: linear-gradient(90deg, rgb(85, 63, 252) 30%,rgb(252, 63, 132) 80%, r
 p{
     font-size: 21px;
     text-align:justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+    
+}
+.p-z{
+    font-size: 21px;
+    text-align:justify;
     padding-top: 10px;
+    padding-bottom: 0%;
+    
     
 }
 
@@ -68,11 +78,13 @@ img{
     padding: 20px;
     display: block; 
     margin: auto;
+    padding-bottom: 40px;
 }
 .img{
     display: block; 
     margin: auto;
     max-width: 50%;
+
     
 }
 
