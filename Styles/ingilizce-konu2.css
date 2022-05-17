@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.bg-image{
+
+background: linear-gradient(90deg, rgb(239, 247, 88) 10%, rgb(97, 240, 204) 50%, rgb(211, 33, 202) 100%);
+
+}
+.shadow-bg{
+  shadow: 2px 2px 7px rgb(31, 29, 29);
+}
+
+.projectPageAll {
+   background-color: rgb(209, 199, 186);
+}
+
+.bg-line{
+    width: 100%;
+    height: 40px;
+   
+    background-image: url("https://www.tongucakademi.com/Content/img/background/yildirimBackWhite.png");
+}
+
+.text{
+    color:rgb(255, 255, 255);
+    margin:5px;
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Spicy Rice, cursive;
+    letter-spacing: 4px;
+   
+    
+    
+}
+
+.icon{
+   padding: 10px;
+}
+
+p{
+    font-size: 21px;
+    text-align:justify;
+    padding-top: 10px;
+   line-height:70px;
+    
+}
+
+.padding{
+    padding: 20px;
+}
+
+
+.container-z{
+    width: 75%;
+    height: auto;
+    margin:auto;
+    
+
+}
+
+img{
+    padding: 20px;
+    display: block; 
+    margin: auto;
+}
+.img{
+    display: block; 
+    margin: auto;
+    max-width: 50%;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin-bottom: 30px;,
+    margin-top: 30px;
+    
+}
+
+.img-color{
+    color: rgb(255, 0, 0);
+}
+
+
+li{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+h2{
+  padding-top: 40px;
+ padding-bottom: 30px;
+ margin-bottom: 30px;
+ font-size: 37px;
+ text-align: center;
+ text-shadow: 2px 2px 7px rgb(176, 169, 169);
+}
+
+h3{
+    margin-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+    color: royalblue;
+}
+
+/* img{
+    padding: 20px;
+  
+} */
+
+.li-border{
+    border-style: solid;
+    border-width: 3px 6px;
+    border-color: rgb(96, 201, 201);
+}
+
+/* @media .container-a{
+    width: 150%;
+    height: 100vh;
+    display: flex;} */
+
+
+     @media only screen and (max-width: 1404px) {
+        .container-a{
+            width: 150%;
+            height: 100vh;
+            display: flex;
+        }
+      }
+
+
+      .table-1{
+       
+        background-color: rgb(213, 246, 248);
+        padding: 20px;
+     margin: auto;
+    }
+    .table-2{
+       
+        background-color: rgb(231, 215, 255);
+        padding: 20px;
+     margin: auto;
+        
+    }
+  
+    tr{
+        padding: 40px;
+        margin:20px
+    }
+
+
+
+
+    .blue-trans{
+        background-color: #e1fac9; 
+        padding:10px;
+        margin-bottom: 40px;
+        padding-left: 40px;
+        padding-right:30px;
+        /* background-color: #d2edfb;
+        padding:5px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 40%;
+        height: auto;
+       
+        display: block;
+        margin: auto; */
+       
+    }
+    
+    
+    
+    .red-trans{
+       
+      background-color: #fae2ff; 
+      padding:10px;
+      margin-bottom: 40px;
+      padding-left: 40px;
+      padding-right:30px;
+     
+        
+    }
+
+
+
+    .p-z{
+    font-size: 21px;
+    text-align:justify;
+   
+    
+}
