@@ -7,7 +7,7 @@
 
 .bg-image{
 
-background: linear-gradient(90deg, rgb(140, 1, 183) 30%, rgb(9, 214, 255) 100%);
+background: linear-gradient(90deg, rgba(147, 0, 252, 0.948) 30%,rgb(249, 3, 60) 86%, rgb(255, 148, 9) 100%);
 
 }
 .shadow-bg{
@@ -45,9 +45,9 @@ background: linear-gradient(90deg, rgb(140, 1, 183) 30%, rgb(9, 214, 255) 100%);
 }
 
 p{
-    font-size: 21px;
+    font-size: 22px;
     text-align:justify;
-    padding-top: 10px;
+    padding: 10px;
     
 }
 
@@ -65,7 +65,9 @@ p{
 }
 
 img{
-    padding: 20px;
+    padding: 35px;
+    display: block; 
+    margin: auto;
 }
 .img{
     display: block; 
@@ -123,3 +125,20 @@ h3{
             display: flex;
         }
       }
+
+
+h4{
+    color:rgb(0, 204, 255);
+}
+
+
+.red-trans{
+   
+    background-color: #ffd5f2; 
+    padding:15px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right:30px;
+  
+      
+  }
