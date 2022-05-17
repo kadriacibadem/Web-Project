@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,13 +17,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../Styles/first-page.css" />
     <title>Dersler</title>
   </head>
   <body class="body-2">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ZKM</a>
+        <a class="navbar-brand" href="#">ZKM I </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -49,11 +49,11 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dersler
+                Testler
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <h6 class="dropdown-header">3. Sınıf Dersleri</h6>
+                  <h6 class="dropdown-header">3. Sınıf Testleri</h6>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Matematik</a></li>
@@ -62,20 +62,11 @@
                 <li><hr class="dropdown-divider" /></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testler.html">Testler</a>
-            </li>
+            
           </ul>
           <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <!-- Buraya kullanıcınn ismi gelecek -->
+            <!-- <h2 th:text="${name}"></h2> -->
           </form>
         </div>
       </div>
