@@ -24,8 +24,9 @@
     var questionCounter = 0; //Soru sayısını takip etmek için
     var selections = []; // Kullanıcın seçtiği seçenekler
     var quiz = $('#quiz'); //Quiz div objesi
-
-
+    var url = (window.location).href;
+    var id = url.substring(url.lastIndexOf('/') + 1);
+    console.log(id);
     // sayfa ilk yüklendiğinde ekranda gözükecekler
     window.onload = function () {
       $('#next').hide();
@@ -131,6 +132,7 @@
       });
     }
     
+    var scoreDB;
     // Computes score and returns a paragraph element to be displayed
     function computeScore() {
       var score = $('<p>',{id: 'question'});
@@ -152,7 +154,7 @@
       }else{
         scoreWithTime = numCorrect * 10;
       }
-
+      scoreDB = scoreWithTime
       score.append(numCorrect+' doğrunuz var. Puanınız : '+scoreWithTime);
       
       return score;
@@ -163,7 +165,7 @@
     // Başlat butonuna tıklandığında süre başlar ve soru ekranda gözükür.
     $(document).ready(function() {
       $("#start-exam").click(function(){
-        var fiveMinutes = 60 * 0.1;
+        var fiveMinutes = 60 * 5;
         display = document.querySelector('#timer');
         startTimer(fiveMinutes, display);
         $('#start-exam').hide();
@@ -178,7 +180,7 @@
       $(document).ready(function() {
           $("#finish-exam").click(function(){
              timer2 = document.querySelector('#timer').textContent;
-             timetoDB = parseInt(timer2);
+             timetoDB = $('#timer').text();
              clearTimeout(time);
              $('#next').hide();
              $('#finish-exam').hide();
@@ -187,7 +189,12 @@
              // Doğru sayısını ekranda gösterir
              $('#question').remove();
              var scoreElem = computeScore();
-             quiz.append(scoreElem).fadeIn();                        
+             quiz.append(scoreElem).fadeIn();
+             score = document.querySelector('#quiz').textContent;
+             
+            console.log("time to db "+timetoDB)
+            console.log("type of time to db "+typeof timetoDB)
+                                     
           }); 
       });
   }

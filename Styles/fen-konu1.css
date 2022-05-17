@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.bg-image{
+
+background: linear-gradient(90deg, rgb(140, 1, 183) 30%, rgb(9, 214, 255) 100%);
+
+}
+.shadow-bg{
+  shadow: 2px 2px 7px rgb(31, 29, 29);
+}
+
+.projectPageAll {
+   background-color: rgb(209, 199, 186);
+}
+
+.bg-line{
+    width: 100%;
+    height: 40px;
+   
+    background-image: url("https://www.tongucakademi.com/Content/img/background/yildirimBackWhite.png");
+}
+
+.text{
+    color:rgb(255, 255, 255);
+    margin:10px;
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Spicy Rice, cursive;
+    letter-spacing: 6px;
+   
+    
+    
+}
+
+.icon{
+   padding: 10px;
+}
+
+p{
+    font-size: 21px;
+    text-align:justify;
+    padding-top: 10px;
+    
+}
+
+.padding{
+    padding: 20px;
+}
+
+
+.container-z{
+    width: 75%;
+    height: auto;
+    margin:auto;
+    
+
+}
+
+img{
+    padding: 20px;
+}
+.img{
+    display: block; 
+    margin: auto;
+    max-width: 50%;
+    
+}
+
+.img-color{
+    color: rgb(255, 0, 0);
+}
+
+
+li{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+h2{
+ padding: 25px;
+ font-size: 37px;
+ text-align: center;
+ text-shadow: 2px 2px 7px rgb(176, 169, 169);
+}
+
+h3{
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+    color: royalblue;
+}
+
+/* img{
+    padding: 20px;
+  
+} */
+
+.li-border{
+    border-style: solid;
+    border-width: 3px 6px;
+    border-color: rgb(96, 201, 201);
+}
+
+/* @media .container-a{
+    width: 150%;
+    height: 100vh;
+    display: flex;} */
+
+
+    @media only screen and (max-width: 1404px) {
+        .container-a{
+            width: 150%;
+            height: 100vh;
+            display: flex;
+        }
+      }
